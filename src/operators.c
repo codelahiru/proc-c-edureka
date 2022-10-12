@@ -1,10 +1,10 @@
 /*
  ============================================================================
  Name        : operators.c
- Author      : 
- Version     :
- Copyright   : Your copyright notice
- Description : Hello World in C, Ansi-style
+ Author      : codelahiru
+ Version     : 0.001
+ Copyright   :
+ Description : C arithmetic operators
  ============================================================================
  */
 
