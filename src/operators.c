@@ -30,6 +30,8 @@ int main(void) {
 	c = a%b;
 	printf("Remainder for a/b = %d \n", c);
 
+	myFunction();
+
 	return 0;
 	//puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
 	//return EXIT_SUCCESS;
@@ -38,7 +40,10 @@ int main(void) {
 	//  Description : Increment/Decrement Operators
 	// ============================================================================
 
+}
 
+void myFunction() {
+  printf("I just got executed!");
 }
 
 
