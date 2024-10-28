@@ -13,7 +13,7 @@
 
 int main(void) {
 
-	int a = 9, b = 4, c;
+	int a = 93343, b = 42232, c;
 
 	c = a+b;
 	printf("a+b = %d \n", c);
