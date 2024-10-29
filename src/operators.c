@@ -1,49 +1,18 @@
-/*
- ============================================================================
- Name        : operators.c
- Author      : codelahiru
- Version     : 0.001
- Copyright   :
- Description : C arithmetic operators
- ============================================================================
- */
 
 #include <stdio.h>
-#include <stdlib.h>
 
-int main(void) {
+int main() {
+    int sum = 0;
 
-	int a = 93343, b = 42232, c;
+    for (int i = 1; i < 1000; i++) {
+        if (i % 3 == 0 || i % 5 == 0) {
+            sum += i;
+        }
+    }
 
-	c = a+b;
-	printf("a+b = %d \n", c);
-
-	c = a-b;
-	printf("a-b = %d \n", c);
-
-	c = a*b;
-	printf("a*b = %d \n", c);
-
-	c = a/b;
-	printf("a/b = %d \n", c);
-
-	c = a%b;
-	printf("Remainder for a/b = %d \n", c);
-
-	myFunction();
-
-	return 0;
-	//puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
-	//return EXIT_SUCCESS;
-
-
-	//  Description : Increment/Decrement Operators
-	// ============================================================================
-
+    printf("The sum of all multiples of 3 or 5 below 1000 is: %d\n", sum);
+    return 0;
 }
 
-void myFunction() {
-  printf("I just got executed!");
-}
 
 
